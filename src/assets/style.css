@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    background: #00BF63;
+    font-family: 'Lato', sans-serif;
+}
+
+button:active {
+    background-color: #dad8d8;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;    
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0BF635;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(63, 63, 63);    
+    padding: 2px;
+}
