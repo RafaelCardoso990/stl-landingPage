@@ -10,7 +10,7 @@ const Main = styled.section`
 
   button {
     width: 100%;
-    height: 45px;
+    height: 80px;
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
