@@ -1,10 +1,7 @@
 import style from "./style";
-import TextDiv from "../../../textDiv/textdiv";
-import duende from "../../../../shared/images/duende.png"
-import nave from "../../../../shared/images/nave.png"
 import ButtonCta from "../../../buttonWpp/ButtonCta";
 
-const { Main, IMG1, IMG2 } = style;
+const { Main } = style;
 
 export default function ParagraphSix() {
   return (

@@ -1,4 +1,3 @@
-import ButtonCta from "../../components/buttonWpp/ButtonCta"
 import Header from "../../components/header/header"
 import ParagraphOne from "../../components/packageIncluded/paragraphs/paragraph1/paragraph1"
 import ParagraphTwo from "../../components/packageIncluded/paragraphs/paragraph2/paragraph2"

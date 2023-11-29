@@ -8,20 +8,21 @@ const Div = styled.div`
   justify-content: center;
   flex-direction: column; 
   
-
+  
   h1 {
     width: 100%;
     font-family: "Josefin Sans", sans-serif;
     color: white;
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     position: relative;
     z-index: 1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
+    text-shadow: 0 0 10px rgba(255, 0, 128, 1);
+    position: relative;
+    top:120px;
   }
 
   h2 {
@@ -29,7 +30,7 @@ const Div = styled.div`
     font-family: "Josefin Sans", sans-serif;
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -37,12 +38,22 @@ const Div = styled.div`
     position: relative;
     z-index: 1;
     margin-bottom: 30px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    position: relative;
+    top:120px;
   }
 
   video {
     width: 100%;
     height: 150%;
+  }
+
+  img {
+    opacity: 40%;
+    width: 150%;
+    position: relative;
+    top: -120px;
+    margin-bottom: -120px;
   }
 `;
 

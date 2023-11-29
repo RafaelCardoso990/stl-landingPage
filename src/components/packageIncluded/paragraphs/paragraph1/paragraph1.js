@@ -17,7 +17,7 @@ export default function ParagraphOne() {
     const interval = setInterval(changeTitles, 2000);
 
     return () => clearInterval(interval);
-  }, [changeTitle]);
+  },);
 
   function changeTitles() {
     const titleRandom = Math.floor(Math.random() * titles.length);

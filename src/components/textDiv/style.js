@@ -41,6 +41,10 @@ const Div = styled.div`
     margin-top: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+  img {
+    width: 50%;
+    margin-top: 10px;
+  }
 `;
 
 const style = { Div };

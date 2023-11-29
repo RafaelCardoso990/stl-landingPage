@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Main>
       <p>Trip</p>
-      <img src={Logo} />
+      <img src={Logo} alt="Logo"/>
       <p>7L</p>
     </Main>
   );
