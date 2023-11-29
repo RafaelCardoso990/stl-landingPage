@@ -9,11 +9,12 @@ const Main = styled.section`
   }
 
   button {
-    width: 100%;
+    width: 350px;
     height: 80px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
