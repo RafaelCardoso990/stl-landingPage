@@ -7,6 +7,7 @@ import lupa from "../../../../shared/images/PNG/lupa.png"
 import guia from "../../../../shared/images/PNG/guia.png"
 import conforto from "../../../../shared/images/PNG/conforto.png"
 
+
 const { Main, IMG1, IMG2 } = style;
 
 export default function ParagraphFour() {
