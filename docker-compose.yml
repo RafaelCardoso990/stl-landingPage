@@ -1,8 +1,7 @@
 services:
-
   trip_stl:
     container_name: trip_stl
-    build: ./
+    build: ./stl2
     volumes:
       - build_react:/var/www/html
 
