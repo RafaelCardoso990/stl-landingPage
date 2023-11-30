@@ -12,3 +12,7 @@ RUN mv build/* /var/www/html
 
 WORKDIR /
 RUN rm -rf /app
+
+EXPOSE 80
+
+CMD ["npm", "start"]
