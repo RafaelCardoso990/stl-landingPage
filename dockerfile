@@ -1,21 +1,16 @@
-# Use uma imagem Node.js para construir a aplicação
-FROM node:18 as builder
+FROM node:18
 
 WORKDIR /app
 
-COPY package*.json ./
-
-RUN npm install
-
 COPY . .
 
-RUN npm run build
+RUN npm i && npm run build
 
-# Use uma imagem Nginx para servir a aplicação
-FROM nginx:latest
+RUN mkdir -p /var/www/html
 
-COPY --from=builder /app/build /usr/share/nginx/html
+RUN mv build/* /var/www/html
 
-EXPOSE 80
+WORKDIR /
 
-CMD ["nginx", "-g", "daemon off;"]
+RUN rm -rf /app
+
