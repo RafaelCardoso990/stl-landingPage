@@ -6,15 +6,14 @@ services:
     volumes:
       - build_react:/var/www/html
 
-  nginx_tip_stl:
-    container_name: nginx_tip_stl
+  nginx_trip_stl:
+    container_name: nginx_trip_stl
     build: ./nginx
     ports:
       - 8080:80
     volumes:
       - build_react:/var/www/html
     depends_on:
-    - node_tip_stl
     - trip_stl
 
 volumes:  
