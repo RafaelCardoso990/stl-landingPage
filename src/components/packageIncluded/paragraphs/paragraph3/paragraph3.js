@@ -2,18 +2,16 @@ import style from "./style";
 import TextDiv from "../../../textDiv/textdiv";
 import cogumelos from "../../../../shared/images/cogumelo1.png";
 import notas from "../../../../shared/images/notas.png";
-import ButtonCta from "../../../buttonWpp/ButtonCta";
 import bus from "../../../../shared/images/PNG/bus.png";
 import alimento from "../../../../shared/images/PNG/alimento.png";
 import hospedagem from "../../../../shared/images/PNG/hospedagem.png";
-import show from "../../../../shared/images/PNG/show.png";
+import cachoeira from "../../../../shared/images/PNG/cachoeira.png";
 
 const { Main, IMG1, IMG2 } = style;
 
 export default function ParagraphTree() {
   return (
     <Main>
-      <ButtonCta text="Legal, eu quero !" />
       <IMG1 src={cogumelos} />
       <h1>E como vai ser esse role ?</h1>
       <TextDiv
@@ -25,9 +23,9 @@ export default function ParagraphTree() {
 
       <TextDiv
         title="Café da Manhã e Almoço:"
-        text="Desfrute de refeições deliciosas e nutritivas todos os dias. 
-        O café da manhã e o almoço é preparado para fornecer a energia necessária para 
-        conhecer as belezas de São Thomé."
+        text="Aproveite refeições deliciosas e nutritivas diariamente. 
+        O café da manhã e o almoço são preparados para fornecer a energia 
+        necessária enquanto você explora as belezas de São Thomé."
         png={alimento}
       ></TextDiv>
       <IMG2 src={notas} />
@@ -39,13 +37,21 @@ export default function ParagraphTree() {
         png={hospedagem}
       ></TextDiv>
 
+<TextDiv
+        title="Transporte ida e volta para o evento:"
+        text="Conduziremos você até o evento do ano, proporcionando conforto e segurança 
+        para que você aproveite ao máximo, sem preocupações. 
+        Estaremos lá no final, prontos para levá-lo de volta, 
+        garantindo uma experiência inigualável."
+        png={bus}
+      ></TextDiv>
+
       <TextDiv
-        title="STL Festival:"
-        text="Faça parte de uma experiência única durante sua estadia! 
-        Durante esses dias, São Thomé das Letras ganhará vida com o STL Festival, 
-        repleto de eventos culturais, apresentações artísticas e momentos de 
-        celebração que tornarão sua viagem ainda mais especial"
-        png={show}
+        title="Visita a cachoeiras:"
+        text="Descubra a beleza natural do Vale das Borboletas e a 
+        emocionante Cachoeira Garganta do Diabo. Uma experiência única 
+        em meio à natureza exuberante."
+        png={cachoeira}
       ></TextDiv>
       
     </Main>

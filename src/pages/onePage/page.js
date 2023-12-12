@@ -1,3 +1,5 @@
+import ButtonCta from "../../components/buttonWpp/ButtonCta"
+import Footer from "../../components/footer/footer"
 import Header from "../../components/header/header"
 import ParagraphOne from "../../components/packageIncluded/paragraphs/paragraph1/paragraph1"
 import ParagraphTwo from "../../components/packageIncluded/paragraphs/paragraph2/paragraph2"
@@ -11,11 +13,13 @@ export default function Page(){
         <>
         <Header/>
         <ParagraphOne/>
+        <ParagraphFive/>
         <ParagraphTwo/>
         <ParagraphTree/>
         <ParagraphFour/>
-        <ParagraphFive/>
         <ParagraphSix/>
+        <ButtonCta/>
+        <Footer/>
         </>
     )
 }

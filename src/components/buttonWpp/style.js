@@ -2,33 +2,43 @@ import styled from "styled-components";
 
 const Main = styled.section`
   padding: 40px;
+  position: fixed;
+  bottom: 0;
+  right: -30px;
+  z-index: 6;
+
+  div {
+    width: 60px; /* Ajuste conforme necessário */
+    height: 60px; /* Ajuste conforme necessário */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  div::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #25d366; /* Cor de fundo do WhatsApp */
+    border-radius: 50%;
+    animation: blink 1s infinite; /* Efeito de piscar */
+  }
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
 
   img {
-    width: 10%;
-    align-self: center;
-  }
-
-  button {
-    width: 350px;
-    height: 80px;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #3498db;
-    border: 2px solid #3498db;
-    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
-  }
-
-  button:hover {
-    background-color: #2980b9;
-    border-color: #2980b9;
-    color: #fff;
+    width: 50%;
   }
 `;
 

@@ -5,16 +5,17 @@ const { Main } = style;
 
 export default function ButtonCta(props) {
   function redirectToWhatsApp() {
-    const url = `https://api.whatsapp.com/send?phone=+5531975594540`;
+    const phoneNumber = "+5531975594540";
+    const message = "Olá, estou entrando em contato para saber mais sobre a escursão para o STL Festival.";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.location.href = url;
   }
 
   return (
     <Main>
-      <button onClick={() => redirectToWhatsApp()}>
-        {props.text}
-        <img src={wpp} alt="wpp"/>
-      </button>
+      <div onClick={() => redirectToWhatsApp()}>
+        <img src={wpp} alt="WhatsApp Logo" />
+      </div>
     </Main>
   );
 }

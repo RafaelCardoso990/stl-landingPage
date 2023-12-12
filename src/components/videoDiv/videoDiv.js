@@ -3,7 +3,6 @@ import style from "./style";
 const { Div } = style;
 
 export default function VideoDiv(props) {
-  console.log(props);
 
   return (
     <Div>        

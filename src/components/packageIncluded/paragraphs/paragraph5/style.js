@@ -8,9 +8,13 @@ const Main = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 80px;
+  
+  
+`;
 
-  h1 {    
-    font-family: "Fuzzy Bubbles", sans-serif;
+const Title = styled.h1`
+font-family: "Fuzzy Bubbles", sans-serif;
     color: white;
     text-align: center;
     font-size: 28px;
@@ -20,8 +24,7 @@ const Main = styled.section`
     position: relative;
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-top: 60px;
-  }
+    margin-top: 10px;
 `;
 
 const IMG1 = styled.img`
@@ -47,5 +50,5 @@ const IMG2 = styled.img`
 `;
 
 
-const style = { Main, IMG1, IMG2 };
+const style = { Main, IMG1, IMG2, Title };
 export default style;

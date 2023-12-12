@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Main = styled.section`
   margin-top: 10px;
   position: relative;
-  background-color: #D5C34F;
   z-index: 1;
   display: flex;
   align-items: center;
