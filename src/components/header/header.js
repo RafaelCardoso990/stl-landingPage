@@ -1,4 +1,4 @@
-import Logo from "../../shared/images/stlLogo.png";
+import pegada from "../../shared/images/pegada.png";
 import style from "./style";
 
 const { Main } = style;
@@ -6,9 +6,7 @@ const { Main } = style;
 export default function Header() {
   return (
     <Main>
-      <p>Trip</p>
-      <img src={Logo} alt="Logo"/>
-      <p>7L</p>
+      <img src={pegada} alt="Logo" />
     </Main>
   );
 }

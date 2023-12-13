@@ -7,9 +7,13 @@ const Main = styled.main`
   justify-content: center;
   position: relative;
   z-index: 2;
-  border-radius: 0px 0px 4.25px 4.25px;
-  background: #ff66c4;
+  border-radius: 0px 0px 10px 10px;
+  background: black;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+  img {
+    width: 20%;
+  }
 
   p {
     font-family: "Fuzzy Bubbles", sans-serif;

@@ -23,7 +23,6 @@ width: 100%;
   }
 
   div {
-    width: 80%;
     position: relative;
     background-color: #fff5d5;
     opacity: 30%;
@@ -34,11 +33,10 @@ width: 100%;
   }
 
   h1 {
-    width: 80%;
-    font-family: "Fuzzy Bubbles", sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: white;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -46,6 +44,7 @@ width: 100%;
     z-index: 1;  
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     opacity: 100%;
+    padding: 5px;
   }
 
   h2 {

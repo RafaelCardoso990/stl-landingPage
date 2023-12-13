@@ -7,13 +7,13 @@ import alimento from "../../../../shared/images/PNG/alimento.png";
 import hospedagem from "../../../../shared/images/PNG/hospedagem.png";
 import cachoeira from "../../../../shared/images/PNG/cachoeira.png";
 
-const { Main, IMG1, IMG2 } = style;
+const { Main, IMG1, IMG2, Title } = style;
 
 export default function ParagraphTree() {
   return (
     <Main>
       <IMG1 src={cogumelos} />
-      <h1>E como vai ser esse role ?</h1>
+      <Title>O QUE ESTÁ INCLUSO NA EXCURSÃO ?</Title>
       <TextDiv
         title="Passagem Ida e Volta para São Thomé das Letras:"
         text="Viaje com comodidade e segurança, aproveitando cada momento da sua 

@@ -7,7 +7,7 @@ const Div = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column; 
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   
   h1 {
     width: 100%;

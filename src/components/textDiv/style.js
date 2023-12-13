@@ -14,7 +14,7 @@ const Div = styled.div`
 
   h1 {
     width: 100%;
-    font-family: "Fuzzy Bubbles", sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: white;
     text-align: center;
     font-size: 28px;
@@ -24,6 +24,7 @@ const Div = styled.div`
     position: relative;
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px;
   }
 
   h2 {
@@ -31,7 +32,7 @@ const Div = styled.div`
     font-family: "Josefin Sans", sans-serif;
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

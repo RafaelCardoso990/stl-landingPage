@@ -1,20 +1,16 @@
 import styled from "styled-components";
 
 const Main = styled.section`
-
   position: relative;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  margin-bottom: 80px;
-  
-  
+  flex-direction: column;  
 `;
 
 const Title = styled.h1`
-font-family: "Fuzzy Bubbles", sans-serif;
+font-family: 'Kanit', sans-serif;
     color: white;
     text-align: center;
     font-size: 28px;

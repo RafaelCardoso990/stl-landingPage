@@ -13,7 +13,7 @@ const Main = styled.section`
   overflow-y: hidden;
 
   h1 {
-    font-family: "Fuzzy Bubbles", sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: white;
     text-align: center;
     font-size: 28px;

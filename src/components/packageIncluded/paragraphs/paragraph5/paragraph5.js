@@ -26,6 +26,7 @@ import plantaFoto from "../../../../shared/images/FotosArtistas/planta.png";
 import nandoFoto from "../../../../shared/images/FotosArtistas/nando.png";
 import bacoFoto from "../../../../shared/images/FotosArtistas/baco.png";
 import ediFoto from "../../../../shared/images/FotosArtistas/edi.png";
+import ButtonCta from "../../../buttonCta/ButtonCta";
 
 
 const { Main, IMG1, IMG2, Title } = style;
@@ -35,7 +36,7 @@ export default function ParagraphFive() {
     <Main>
       <IMG1 src={cogumelos} />
 
-      <Title>E as atrações do STL 2024 em, quem são ?</Title>
+      <Title>CONFIRA AGORA AS ATRAÇÕES DO STL 2024 !</Title>
 
       <VideoDiv
         title="Emicida"
@@ -99,6 +100,7 @@ export default function ParagraphFive() {
         poster={posterEdi}
         foto={ediFoto}
       ></VideoDiv>
+      <ButtonCta/>
     </Main>
   );
 }

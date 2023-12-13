@@ -23,8 +23,7 @@ const Main = styled.main`
   }
 
   h1 {
-    width: 100%;
-    font-family: "Fuzzy Bubbles", sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: #fff5d2;
     text-align: center;
     font-size: 28px;
@@ -33,22 +32,25 @@ const Main = styled.main`
     line-height: normal;
     position: relative;
     z-index: 1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(255, 0, 128, 1);
+    padding: 5px;
+    
   }
 
   h2 {
     font-family: "Josefin Sans", sans-serif;
     color: #fff5d2;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 15px;
+    padding: 5px;
     position: relative;
     z-index: 1;
-    margin-top: 30px;
+    margin-bottom: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
   }
 
   h3 {

@@ -5,6 +5,7 @@ import nave from "../../../../shared/images/nave.png"
 import lupa from "../../../../shared/images/PNG/lupa.png"
 import guia from "../../../../shared/images/PNG/guia.png"
 import conforto from "../../../../shared/images/PNG/conforto.png"
+import ButtonCta from "../../../buttonCta/ButtonCta";
 
 
 const { Main, IMG1, IMG2 } = style;
@@ -13,7 +14,7 @@ export default function ParagraphFour() {
   return (
     <Main>
 
-      <h1>Roteiro</h1>
+      <h1>ROTEIRO</h1>
       <TextDiv
         title="Dia 31/05/2024, sexta-feira:"
         text="Saíremos as 19:00 de Sete Lagoas, com chegada esperada as 00:00,
@@ -37,6 +38,7 @@ export default function ParagraphFour() {
         text="Ás 10:00 conheceremos a cachoeira Garganta do Diabo, tarde livre, e retorno para Sete Lagoas ás 16:00."
         png={conforto}
       ></TextDiv>
+     
     </Main>
   );
 }
