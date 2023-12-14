@@ -10,11 +10,14 @@ services:
     build: ./nginx
     ports:
       - 80:80
+      - 443:443
     volumes:
       - build_react:/var/www/html
+      - ./stl/cert:/etc/nginx/ssl
     depends_on:
       - react_stl_app
 
 volumes:
   build_react:
+
 
