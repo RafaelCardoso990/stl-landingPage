@@ -9,15 +9,14 @@ services:
     container_name: nginx_sorteador_app
     build: ./nginx
     ports:
-      - 80:80
+      - 8080:80
       - 443:443
     volumes:
       - build_react:/var/www/html
-      - ./stl/cert:/etc/nginx/ssl
+      - ./stl/nginx:/etc/nginx/ssl
     depends_on:
       - react_stl_app
 
 volumes:
   build_react:
-
 
