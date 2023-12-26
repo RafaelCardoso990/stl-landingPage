@@ -4,7 +4,7 @@ import duende from "../../../../shared/images/duende.png"
 import nave from "../../../../shared/images/nave.png"
 import lupa from "../../../../shared/images/PNG/lupa.png"
 import guia from "../../../../shared/images/PNG/guia.png"
-import conforto from "../../../../shared/images/PNG/conforto.png"
+import cachoeira from "../../../../shared/images/PNG/cachoeira.png"
 import ButtonCta from "../../../buttonCta/ButtonCta";
 
 
@@ -36,7 +36,7 @@ export default function ParagraphFour() {
       <TextDiv
         title="Dia 02/06/2024:"
         text="Ás 10:00 conheceremos a cachoeira Garganta do Diabo, tarde livre, e retorno para Sete Lagoas ás 16:00."
-        png={conforto}
+        png={cachoeira}
       ></TextDiv>
      
     </Main>
