@@ -41,6 +41,14 @@ const Main = styled.section`
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
   }
+
+  @media(min-width: 900px) {
+    h1 {
+    
+    font-size: 30px;
+  
+  }
+  }
 `;
 const IMG1 = styled.img`
   width: 90%;

@@ -12,6 +12,11 @@ const Div = styled.div`
   border: solid 2px white;
   margin-top: 10px;
 
+  @media (min-width: 900px) {
+    width: 50%;
+    
+  }
+
   h1 {
     width: 100%;
     font-family: 'Kanit', sans-serif;

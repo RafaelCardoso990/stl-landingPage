@@ -43,15 +43,26 @@ const Main = styled.main`
     line-height: normal;
     margin-top: 30px;
   }
+
+  
 `;
 
 const Inst = styled.img`
     width: 40px;  
     margin-top: 20px;
+
+    @media (min-width: 900px) {
+    width: 10%;
+    
+  }
 `;
 
 const Lock = styled.img`
     width: 80%;
+    @media (min-width: 900px) {
+    width: 30%;
+    
+  }
 `;
 
 const style = { Main, Inst , Lock};

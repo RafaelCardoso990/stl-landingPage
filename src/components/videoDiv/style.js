@@ -9,6 +9,8 @@ const Div = styled.div`
   flex-direction: column; 
   margin-bottom: 20px;
   
+
+
   h1 {
     width: 100%;
     font-family: "Josefin Sans", sans-serif;
@@ -54,6 +56,11 @@ const Div = styled.div`
     position: relative;
     top: -120px;
     margin-bottom: -120px;
+  }
+
+  @media (min-width: 900px) {
+    width: 50%;
+    
   }
 `;
 

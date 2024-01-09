@@ -10,7 +10,7 @@ const Main = styled.main`
   border-radius: 0px 0px 10px 10px;
   background: black;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  
+
   img {
     width: 20%;
   }
@@ -23,6 +23,13 @@ const Main = styled.main`
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+
+  @media (min-width: 900px) {
+    img {
+    width: 7%;
+  }
+
   }
 `;
 

@@ -37,6 +37,9 @@ export default function ParagraphFive() {
       <IMG1 src={cogumelos} />
 
       <Title>CONFIRA AGORA AS ATRAÇÕES DO STL 2024 !</Title>
+      
+            <IMG2 src={notas} />
+      <div>
 
       <VideoDiv
         title="Emicida"
@@ -52,8 +55,6 @@ export default function ParagraphFive() {
         poster={posterArmandinho}
         foto={armandinhoFoto}
       ></VideoDiv>
-
-      <IMG2 src={notas} />
 
       <VideoDiv
         title="Marcelo Falcão"
@@ -100,6 +101,8 @@ export default function ParagraphFive() {
         poster={posterEdi}
         foto={ediFoto}
       ></VideoDiv>
+
+      </div>
       <ButtonCta/>
     </Main>
   );

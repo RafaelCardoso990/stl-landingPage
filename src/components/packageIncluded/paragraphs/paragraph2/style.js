@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const Main = styled.section`
-width: 100%;
+  width: 100%;
   position: relative;
   z-index: 3;
-  background-color: #cb6be6; 
+  background-color: #cb6be6;
   clip-path: polygon(0.2% 6.5%, 100% 0%, 100% 100%, 0% 93.5%);
   padding-block: 50px;
   border: none;
@@ -33,7 +33,7 @@ width: 100%;
   }
 
   h1 {
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     color: white;
     text-align: center;
     font-size: 24px;
@@ -41,7 +41,7 @@ width: 100%;
     font-weight: 700;
     line-height: normal;
     position: relative;
-    z-index: 1;  
+    z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     opacity: 100%;
     padding: 5px;
@@ -60,7 +60,6 @@ width: 100%;
     position: relative;
     z-index: 6;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
   }
 
   h3 {
@@ -76,6 +75,38 @@ width: 100%;
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
+  @media (min-width: 1385px) {
+    video {
+      width: 55%;
+      z-index: 1;
+      border: solid 2px white;
+      border-radius: 9px;
+    }
+    h1 {
+      font-family: "Kanit", sans-serif;
+      color: white;
+      text-align: center;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      position: relative;
+      z-index: 1;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      opacity: 100%;
+      padding: 15px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    video {
+      width: 55%;
+      z-index: 1;
+      border: solid 2px white;
+      border-radius: 9px;
+    }
+  }
 `;
 
 const IMG1 = styled.img`
@@ -83,6 +114,10 @@ const IMG1 = styled.img`
   z-index: 2;
   transform: rotate(90deg);
   padding: 10px;
+
+  @media (min-width: 900px) {
+    width: 5%;
+  }
 `;
 
 const IMG2 = styled.img`
@@ -94,6 +129,10 @@ const IMG2 = styled.img`
   transform: scaleY(-1);
   transform: scaleX(-1);
   z-index: 0;
+
+  @media (min-width: 900px) {
+    width: 25%;
+  }
 `;
 
 const IMG3 = styled.img`
@@ -104,6 +143,10 @@ const IMG3 = styled.img`
   top: 0;
   transform: scaleY(-1);
   z-index: 0;
+
+  @media (min-width: 900px) {
+    width: 25%;
+  }
 `;
 
 const style = { Main, IMG1, IMG2, IMG3 };

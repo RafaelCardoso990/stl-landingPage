@@ -23,7 +23,7 @@ const Main = styled.main`
   }
 
   h1 {
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     color: #fff5d2;
     text-align: center;
     font-size: 28px;
@@ -34,7 +34,6 @@ const Main = styled.main`
     z-index: 1;
     text-shadow: 0 0 10px rgba(255, 0, 128, 1);
     padding: 5px;
-    
   }
 
   h2 {
@@ -50,7 +49,6 @@ const Main = styled.main`
     z-index: 1;
     margin-bottom: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
   }
 
   h3 {
@@ -69,6 +67,37 @@ const Main = styled.main`
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 15px;
   }
+
+  @media (min-width: 900px) {
+    h1 {
+      font-family: "Kanit", sans-serif;
+      color: #fff5d2;
+      text-align: center;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 0 10px rgba(255, 0, 128, 1);
+      padding: 5px;
+    }
+
+    h2 {
+      font-family: "Josefin Sans", sans-serif;
+      color: #fff5d2;
+      text-align: center;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 5px;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
 `;
 
 const IMG1 = styled.img`
@@ -77,6 +106,10 @@ const IMG1 = styled.img`
   position: absolute;
   right: 0;
   top: 0;
+
+  @media (min-width: 900px) {
+    width: 100%;
+  }
 `;
 
 const style = { Main, IMG1 };

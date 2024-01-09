@@ -6,6 +6,7 @@ const Main = styled.section`
   align-items: center;
   justify-content: center;
   z-index: 6;
+
   button {
     background-color: red;
     border-radius: 20px;
@@ -24,6 +25,11 @@ const Main = styled.section`
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 15px;
+
+    @media (min-width: 900px) {
+    width: 30%;
+    
+  }
   }
 `;
 

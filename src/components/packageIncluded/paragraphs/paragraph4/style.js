@@ -24,6 +24,8 @@ const Main = styled.section`
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
+  
 `;
 const IMG1 = styled.img`
   width: 90%;
@@ -34,6 +36,11 @@ const IMG1 = styled.img`
   transform: rotate(-90deg);
   z-index: 2;  
   padding: 10px;
+
+  @media (min-width: 900px) {
+    width: 30%;
+    
+  }
 `;
 
 const IMG2 = styled.img`
@@ -45,6 +52,11 @@ const IMG2 = styled.img`
   transform: rotate(90deg);
   z-index: 2;  
   padding: 10px;
+
+  @media (min-width: 900px) {
+    width: 30%;
+    
+  }
 `;
 
 const style = { Main, IMG1, IMG2 };

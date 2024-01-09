@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <Main>
       <div>
-        <h1>Siga-nos</h1>
+        <a href="https://www.instagram.com/pegada_tur/"><h1>Siga-nos</h1></a>
         <Inst src={instagram} />
       </div>
       <Lock src={seguro} />
